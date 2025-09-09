@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bar do Seu Zé UFPB</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+   <h1>Bar do Seu Zé 🍹 UFPB</h1>
+   <div class="placeholder-img">LOGO AQUI</div>
+</header>
+<main>
+   <section class="cardapio">
+       <h2>Cardápio</h2>
+       <div class="produtos">
+           <div class="produto">
+               <div class="placeholder-img">CHOPP</div>
+               <h3>Chopp</h3>
+               <p>R$10,00</p>
+           </div>
+           <div class="produto">
+               <div class="placeholder-img">CAIPIRINHA</div>
+               <h3>Caipirinha</h3>
+               <p>R$15,00</p>
+           </div>
+           <div class="produto">
+               <div class="placeholder-img">BATATA FRITA</div>
+               <h3>Batata Frita</h3>
+               <p>R$12,00</p>
+           </div>
+       </div>
+   </section>
+   <section class="pagamento">
+       <h2>Pagamento</h2>
+       <form action="/pay" method="post">
+           Produto: <input type="text" name="produto" placeholder="Ex: Chopp"><br><br>
+           Valor: <input type="text" name="valor" placeholder="Ex: 10"><br><br>
+           Método:
+           <select name="metodo">
+               <option value="">Selecione...</option>
+               <option value="PIX">PIX</option>
+               <option value="Cartao">Cartão</option>
+               <option value="Dinheiro">Dinheiro</option>
+           </select><br><br>
+           <button type="submit">Pagar</button>
+       </form>
+   </section>
+</main>
+<footer>
+   <p>© 2025 Bar do Seu Zé UFPB - Todos os direitos reservados</p>
+</footer>
+<script src="js/pagamento.js"></script>
+</body>
+</html>
