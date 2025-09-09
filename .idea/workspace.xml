@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d903e85-6ace-4858-8a23-833786b501d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/public/pagamentos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/public/pix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_examples/ComandaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema_backstreet.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Bebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Comanda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Garcom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Gerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/MainDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Pagamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Periodo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Relatorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/SistemaPagamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/StatusPagamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/web/MainJavalin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backstreet/web/QRUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/pagamento.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Bebida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Comanda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Comida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Garcom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Gerente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/MainDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Pagamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Pedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Periodo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Relatorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/SistemaPagamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/StatusPagamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/web/MainJavalin$Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/web/MainJavalin$Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/web/MainJavalin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backstreet/web/QRUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/pagamento.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Joao-VICTOR4433&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Joao-VICTOR4433/projetofinalLP-Java.git&quot;,
+    &quot;accountId&quot;: &quot;00a24243-b4d0-4fad-a2f6-cb0675ad749b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="32TTwxHR6tspMkdE1VxvDxwcJnD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jvbook4/OneDrive/Videos/java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jvbook4\OneDrive\Videos\java\.idea" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d903e85-6ace-4858-8a23-833786b501d1" name="Changes" comment="" />
+      <created>1757443805435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757443805435</updated>
+      <workItem from="1757443807316" duration="18000" />
+      <workItem from="1757443878619" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

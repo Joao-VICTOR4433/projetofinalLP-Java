@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Pagamento PIX</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+<body onload="mostrarResumo()">
+<div class="pix-container">
+  <h1>💳 Pagamento via PIX</h1>
+  <h2>Resumo do Pedido</h2>
+  <ul id="resumo-pedido"></ul>
+  <h3 id="total"></h3>
+  <div class="qr">
+    <img src="/images/pix-qr.png" alt="QR Code PIX">
+  </div>
+  <p class="payload" id="pix-payload">0002012658-JAVAPIZZARIA-PIX-123</p>
+  <button class="btn" onclick="copiarPix()">📋 Copiar Código PIX</button>
+  <br><br>
+  <a class="btn" href="/index.html">⬅ Voltar ao Cardápio</a>
+</div>
+</body>
+</html>

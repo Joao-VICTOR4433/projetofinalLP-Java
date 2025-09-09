@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Admin - JavaPizzaria</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+<body onload="mostrarProdutosAdmin()">
+<div class="pix-container">
+  <h1>⚙️ Painel do Administrador</h1>
+  <p>Cadastre produtos e usuários.</p>
+
+  <h2>Produtos</h2>
+  <form id="form-comida" onsubmit="cadastrarComida(event)">
+    <input type="text" id="c_nome" placeholder="Nome da comida" required>
+    <input type="number" step="0.01" id="c_preco" placeholder="Preço" required>
+    <input type="number" id="c_estoque" placeholder="Estoque" required>
+    <input type="text" id="c_imagem" placeholder="Imagem (/images/...)" required>
+    <input type="text" id="c_ingredientes" placeholder="Ingredientes" required>
+    <button class="btn" type="submit">➕ Adicionar Comida</button>
+  </form>
+
+  <form id="form-bebida" onsubmit="cadastrarBebida(event)">
+    <input type="text" id="b_nome" placeholder="Nome da bebida" required>
+    <input type="number" step="0.01" id="b_preco" placeholder="Preço" required>
+    <input type="number" id="b_estoque" placeholder="Estoque" required>
+    <input type="text" id="b_imagem" placeholder="Imagem (/images/...)" required>
+    <input type="number" id="b_volume" placeholder="Volume (ml)" required>
+    <input type="number" step="0.1" id="b_teor" placeholder="Teor alcoólico (%)" value="0">
+    <button class="btn" type="submit">➕ Adicionar Bebida</button>
+  </form>
+
+  <h2>Usuários</h2>
+  <form id="form-gerente" onsubmit="cadastrarGerente(event)">
+    <input type="text" id="g_nome" placeholder="Nome do gerente" required>
+    <button class="btn" type="submit">👤 Cadastrar Gerente</button>
+  </form>
+
+  <form id="form-func" onsubmit="cadastrarFuncionario(event)">
+    <input type="text" id="f_nome" placeholder="Nome do funcionário" required>
+    <button class="btn" type="submit">👤 Cadastrar Funcionário</button>
+  </form>
+
+  <h2>📋 Produtos Cadastrados</h2>
+  <div id="lista-admin"></div>
+
+  <br>
+  <a href="/index.html" class="btn">⬅ Voltar ao Cardápio</a>
+</div>
+</body>
+</html>
